@@ -33,12 +33,20 @@
 import SwiftUI
 
 struct WelcomeView: View {
+  @State private var showHistory = false
+  @Binding var selectedTab: Int
+
   var body: some View {
     ZStack {
       VStack {
-        HeaderView(titleText: "Welcome")
+        HeaderView(selectedTab: $selectedTab, titleText: "Welcome")
         Spacer()
-        Button("History") { }
+        Button("History") {
+          showHistory.toggle()
+        }
+        .sheet(isPresented: $showHistory) {
+          HistoryView(showHistory: $showHistory)
+        }
           .padding(.bottom)
       }
       VStack {
@@ -54,7 +62,7 @@ struct WelcomeView: View {
             .clipShape(Circle())
         }
         // swiftlint:disable:next multiple_closures_with_trailing_closure
-        Button(action: { }) {
+        Button(action: { selectedTab = 0 }) {
           Text("Get Started")
           Image(systemName: "arrow.right.circle")
         }
@@ -62,13 +70,14 @@ struct WelcomeView: View {
         .padding()
         .background(
           RoundedRectangle(cornerRadius: 20)
-          .stroke(Color.gray, lineWidth: 2))
+            .stroke(Color.gray, lineWidth: 2))
       }
     }
   }
 }
+
 struct WelcomeView_Previews: PreviewProvider {
   static var previews: some View {
-    WelcomeView()
+    WelcomeView(selectedTab: .constant(9))
   }
 }
