@@ -13,6 +13,7 @@
 		6CF95FEA27C8750C003545EC /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF95FE927C8750C003545EC /* HistoryStore.swift */; };
 		6CF95FEC27C87795003545EC /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF95FEB27C87795003545EC /* HistoryStoreDevData.swift */; };
 		6CF95FEE27C87F4F003545EC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CF95FED27C87F4F003545EC /* Localizable.strings */; };
+		6CFA1B7C27F7C1A000107823 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA1B7B27F7C1A000107823 /* TimerView.swift */; };
 		CD0BEE1F2525844200937B4F /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0BEE1E2525844200937B4F /* RatingView.swift */; };
 		CD30C924251474DC0049DB93 /* HIITFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30C923251474DC0049DB93 /* HIITFitApp.swift */; };
 		CD30C926251474DC0049DB93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30C925251474DC0049DB93 /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 		6CF95FE927C8750C003545EC /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
 		6CF95FEB27C87795003545EC /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
 		6CF95FED27C87F4F003545EC /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		6CFA1B7B27F7C1A000107823 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		CD0BEE1E2525844200937B4F /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		CD30C920251474DC0049DB93 /* HIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD30C923251474DC0049DB93 /* HIITFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitApp.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				CD0BEE1E2525844200937B4F /* RatingView.swift */,
 				6C8AED6927C1932100BDF91B /* HistoryView.swift */,
 				6C8AED6B27C1A22000BDF91B /* SuccessView.swift */,
+				6CFA1B7B27F7C1A000107823 /* TimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFA1B7C27F7C1A000107823 /* TimerView.swift in Sources */,
 				CD30C95425147E4B0049DB93 /* ExerciseView.swift in Sources */,
 				CD30C95125147E420049DB93 /* WelcomeView.swift in Sources */,
 				6C8AED6C27C1A22000BDF91B /* SuccessView.swift in Sources */,
