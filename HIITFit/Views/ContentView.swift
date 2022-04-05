@@ -44,7 +44,6 @@ struct ContentView: View {
           .tag(index)
       }
     }
-    .environmentObject(HistoryStore())
     .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
   }
 }
@@ -54,4 +53,5 @@ struct ContentView_Previews: PreviewProvider {
     ContentView()
   }
 }
+
 
