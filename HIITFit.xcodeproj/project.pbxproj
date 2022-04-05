@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C36FBF227FBD0E4000DF7EF /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C36FBF127FBD0E4000DF7EF /* RaisedButton.swift */; };
+		6C36FBF427FBD59E000DF7EF /* EmbossedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C36FBF327FBD59E000DF7EF /* EmbossedButton.swift */; };
+		6C36FBF627FBD772000DF7EF /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C36FBF527FBD772000DF7EF /* ContainerView.swift */; };
+		6C36FBF827FBD9E7000DF7EF /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C36FBF727FBD9E7000DF7EF /* GradientBackground.swift */; };
+		6C36FBFA27FBDCA1000DF7EF /* WelcomeImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C36FBF927FBDCA1000DF7EF /* WelcomeImages.swift */; };
 		6C8AED6A27C1932100BDF91B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8AED6927C1932100BDF91B /* HistoryView.swift */; };
 		6C8AED6C27C1A22000BDF91B /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8AED6B27C1A22000BDF91B /* SuccessView.swift */; };
 		6CF95FE827C86E82003545EC /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF95FE727C86E82003545EC /* Exercise.swift */; };
@@ -31,6 +36,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C36FBF127FBD0E4000DF7EF /* RaisedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
+		6C36FBF327FBD59E000DF7EF /* EmbossedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbossedButton.swift; sourceTree = "<group>"; };
+		6C36FBF527FBD772000DF7EF /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		6C36FBF727FBD9E7000DF7EF /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		6C36FBF927FBDCA1000DF7EF /* WelcomeImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeImages.swift; sourceTree = "<group>"; };
 		6C8AED6927C1932100BDF91B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		6C8AED6B27C1A22000BDF91B /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		6CF95FE727C86E82003545EC /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
@@ -140,6 +150,11 @@
 				6C8AED6927C1932100BDF91B /* HistoryView.swift */,
 				6C8AED6B27C1A22000BDF91B /* SuccessView.swift */,
 				6CFA1B7B27F7C1A000107823 /* TimerView.swift */,
+				6C36FBF127FBD0E4000DF7EF /* RaisedButton.swift */,
+				6C36FBF327FBD59E000DF7EF /* EmbossedButton.swift */,
+				6C36FBF527FBD772000DF7EF /* ContainerView.swift */,
+				6C36FBF727FBD9E7000DF7EF /* GradientBackground.swift */,
+				6C36FBF927FBDCA1000DF7EF /* WelcomeImages.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -249,12 +264,17 @@
 				6CF95FEA27C8750C003545EC /* HistoryStore.swift in Sources */,
 				6CF95FEC27C87795003545EC /* HistoryStoreDevData.swift in Sources */,
 				CD0BEE1F2525844200937B4F /* RatingView.swift in Sources */,
+				6C36FBFA27FBDCA1000DF7EF /* WelcomeImages.swift in Sources */,
 				CD30C93F25147A8C0049DB93 /* DateExtension.swift in Sources */,
+				6C36FBF627FBD772000DF7EF /* ContainerView.swift in Sources */,
 				6CF95FE827C86E82003545EC /* Exercise.swift in Sources */,
 				CD30C924251474DC0049DB93 /* HIITFitApp.swift in Sources */,
+				6C36FBF227FBD0E4000DF7EF /* RaisedButton.swift in Sources */,
 				CD30C94025147A8C0049DB93 /* ImageExtension.swift in Sources */,
+				6C36FBF427FBD59E000DF7EF /* EmbossedButton.swift in Sources */,
 				6C8AED6A27C1932100BDF91B /* HistoryView.swift in Sources */,
 				CD30C959251486730049DB93 /* HeaderView.swift in Sources */,
+				6C36FBF827FBD9E7000DF7EF /* GradientBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
